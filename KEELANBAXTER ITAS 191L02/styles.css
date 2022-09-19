@@ -1,0 +1,103 @@
+html {
+    box-sizing: border-box;
+  }
+
+body{
+    background-color:rgb(0, 0, 0);
+    font-family: Arial;
+    background-image: url(https://cdn1.vectorstock.com/i/1000x1000/20/85/fern-leaf-background-vector-17822085.jpg); /*Free image*/
+    background-size: cover;
+}
+
+#title{
+  background-color: #12813c;
+  width: fit-content;
+}
+
+#legend_border{
+  border:#12813c 5px;
+  border-style: solid;
+  width: fit-content;
+  float: left;
+}
+
+.legend-title{
+  color: rgb(0, 0, 0);
+}
+
+h1{
+    font-family: Indie Flower;
+    color: white;
+    font-size: 50px;
+  }
+
+h2{
+  font-family: Indie Flower;
+  padding-top: 200px;
+  color: rgb(0, 0, 0);
+  font-size: 45px;
+}
+
+h3{
+  font-family: Indie Flower;
+  font-size: 25px;
+}
+
+a {
+  font-size: 25px;
+}
+
+
+/*LOCATIONS:*/
+
+/*PIPERS LAGOON*/
+#pipers a:hover {
+  color:rgb(9, 181, 75) ;
+}
+#pipers{
+  font-family: Indie Flower;  
+
+}
+
+
+/*NECK POINT*/
+#neck a:hover {
+  color:rgb(9, 181, 75) ;
+}
+#neck{
+  font-family: Indie Flower;  
+
+
+}
+/*CHAPTERS BOOKSTORE*/
+#chapters a:hover {
+  color:rgb(9, 181, 75) ;
+}
+#chapters{
+  font-family: Indie Flower;  
+}
+
+
+/*WOODGROVE MALL*/
+#woodgrove a:hover {
+  color:rgb(9, 181, 75) ;
+}
+
+#woodgrove{
+  font-family: Indie Flower;
+}
+
+
+/*MOUNT BENSON*/
+#mount a:hover {
+  color:rgb(9, 181, 75) ;
+}
+
+#mount{
+  font-family: Indie Flower;  
+
+}
+
+.button1:hover{
+    background-color: gray;
+}

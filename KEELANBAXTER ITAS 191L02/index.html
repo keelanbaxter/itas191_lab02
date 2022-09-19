@@ -1,0 +1,216 @@
+<!--My favorite places in Nanaimo. ITAS 191 LAB02. Keelan Baxter-->
+<!---->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+	<title>Nanaimo Places Part 1</title>
+
+<!--STYLES-->
+<style>
+        /*
+         * Try not to mess with this part unless you're familiar with box-sizing.
+         * We will cover these topics in a future class. You can modify this section
+         * if you want to, but feel free to skip to the next part below.
+         */
+
+
+        html {
+          box-sizing: border-box;
+        }
+        *,
+        *:before,
+        *:after {
+          box-sizing: inherit;
+        }
+  
+        /* Play around with the CSS below here and add your own personal style! */
+        body {
+          color: #111;
+          border: #111;
+        }
+  
+        #map {
+          float: left;
+          height: 900px;
+        }
+  
+        footer {
+          clear: both;
+        }
+  
+        #legend {
+          padding: 10px 15px;
+          float: left;
+          
+        }
+  
+        #details_section {
+          background: #12813c;
+          margin-bottom: 10px;
+          margin-top: 20px;
+          padding: 10px 15px;
+          border-radius: 5px;
+          overflow: auto;
+          float: left;
+          display: block;
+        }
+
+
+        #map{
+          background-image: url(nanaimo-map-64px-icons.png);
+          background-size: contain;
+          width: 635px;
+          height: 585px;
+          position: relative;
+          float: left;
+        }
+
+        #map a{
+          display: block;
+          border: 5px solid; 
+          color:rgb(9, 181, 75) ;
+          position: absolute;
+          right: 195px;
+          top: 70px;
+        }
+
+        #map a:hover{
+          border: 5px solid firebrick;
+        }
+        /*Make boxes smaller, and make it so when you hover they change color.*/
+        a#pipers_lagoon{
+          width: 30px; height: 30px; left: 377px; top: 109px;
+          
+        }
+
+        a#neck_point{
+          width: 30px; height: 30px; left: 333px; top: 82px;
+
+        }
+
+        a#chapters_bookstore{
+          width: 30px; height: 30px; left: 128px; top: 61px;
+
+        }
+
+        a#woodgrove_mall{
+          width: 30px; height: 30px; left: 156px; top: 79px;
+        }
+
+        a#mount_benson{
+          width: 30px; height: 30px; left: 151px; top: 346px;
+
+        }
+
+
+</style>
+</head>
+
+<body>
+
+<!--TITLE-->
+<div id="title">
+<header>
+<h1>Keelan's favourite places in Nanaimo</h1>
+</header>
+</div>
+
+<main>
+<!--IMAGE OF NANAIMO MAP-->
+<div id="map">
+  <a href="#lagoon" id="pipers_lagoon"></a>
+  <a href="#point" id="neck_point"></a>
+  <a href="#bookstore" id="chapters_bookstore"></a>
+  <a href="#mall" id="woodgrove_mall"></a>
+  <a href="#benson" id="mount_benson"></a>
+</div>
+
+
+<!--LEGEND-->
+<div id="legend_border">
+<div id="legend-title">
+<h1 class="legend-title"><u>Legend:</u></h1>
+
+<div id="legend">
+    
+<ol type="A">
+  <a href="#lagoon"><li id="pipers">
+    <img id="letter-a" src="letter-a.png" width="40" height="40" alt="letter-a"></a> <a href="#lagoon">Piper's Lagoon</a></li>
+
+    <a href="#point"><li id="neck">
+    <img id="letter-b" src ="letter-b.png" width="40" height="40" alt="letter-b"></a> <a href="#point">Neck Point</a></li>
+
+    <a href="#bookstore"><li id="chapters">
+    <img id="letter-c" src="letter-c.png" width="40" height="40" alt="letter-c"></a> <a href="#bookstore">Chapters Bookstore</a></li>
+
+    <a href="#mall"><li id="woodgrove">
+    <img id="letter-d" src="letter-d.png" width="40" height="40" alt="letter-d"></a> <a href="#mall">Woodgrove Mall</a></li>
+
+    <a href="#benson"><li id="mount">
+    <img id="letter-e" src="letter-e.png" width="40" height="40" alt="letter-e"></a> <a href="#benson">Mount Benson</a></li>
+
+</ol>
+</div>
+</div>
+</div>
+</main>
+<footer>
+
+<!--LOCATION DESCRIPTIONS-->
+<h2>Details about places</h2>
+
+<!--#1 PIPERS LAGOON-->
+<div id="details_section">
+    <section>
+        <h3 class="pipers_lagoon">Piper's Lagoon</h3>
+        <p id="lagoon">Without a doubt one of the best seats in the Nanaimo to watch a full moon, or blood moon rise. Excellent opportunities for photography, wedding photos, and couples photos. This location hosts two small islands with a trail leading to them both. Benches are provided along the walking path.
+        </p>
+      </section>
+</div>
+
+<!--#2 NECK POINT-->
+<div id="details_section">
+    <section>
+        <h3 class="neck_point">Neck Point</h3>
+        <p id="point">Romantic views on the ocean, with an additional view of Vancouver in the distance. This location is pristine for wedding pictures, and for photographers to take advantage of. Neck Point is home to beautiful wildlife such as deer, bunnies, bald eagles, and more! Discover it for yourself at Neck Point today.
+        </p>
+    </section>
+
+</div>
+
+<!--#3 CHAPTERS BOOKSTORE-->
+<div id="details_section">
+    <section>
+        <h3 class="chapters_bookstore">Chapters Bookstore</h3>
+        <p id="bookstore">Envelope yourself in knowledge, Starbucks Coffee, and gifts galore with Chapters Bookstore. This is located in North Nanaimo, and serves as one of the most popular bookstores in Nanaimo BC. Come by for a cute bookstore and coffee date all in one, or a quick semi-formal business meeting in the outside patio. Chapters has a lot to offer for gift shopping at Christmas time as well, and is great for birthday gift ideas.
+        </p>
+    </section>
+      </div>
+
+<!--#4 WOODGROVE MALL-->
+<div id="details_section">
+    <section>
+        <h3 class="woodgrove_mall">Woodgrove Mall</h3>
+        <p id="mall">Climb or claw your way to the top of this great mountain located in the heart of Nanaimo. The mountain itself is like a beacon for those seeking a worthy challenge when it comes to cardio, or just want to enjoy a fantastic view of the entirety of Nanaimo's coastline. From the top, you can clearly see Nanoose Bay, Nanaimo, and Vancouver. Reaching the top itself is a fantastic feeling, and taking a selfie in front of the Canadian flag posted on top of the mountain is a tribute to your time spent in Nanaimo.
+        </p>
+    </section>
+      </div>
+
+<!--#5 MOUNT BENSON-->
+<div id="details_section">
+    <section>
+        <h3 class="mount_benson">Mount Benson</h3>
+        <p id="benson">Enter into a peaceful feeling mall. One that reminds of a temple for its ambient natural lighting, decorations, and warm atmosphere. Equipped with a foodcourt, many of the most popular retail stores, and more - including a Wal-Mart attachment. This is the place to be for Christmas time. Come see Santa and his elves, or the local carnival when it comes to town. Nanaimo mall serves as a hub for many things, even as a meeting location. As it is home to the main bus stop.
+        </p>
+    </section>
+</div>
+
+</footer>
+
+</body>
+</html>
